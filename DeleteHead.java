@@ -1,0 +1,26 @@
+
+STRIVER SHEET PROBLEM/*
+// Definition for a Node.
+class ListNode {
+    public int data;
+    public ListNode prev;
+    public ListNode next;
+    public ListNode();
+    public ListNode(int data);
+    public ListNode(int data, ListNode prev, ListNode next);
+};
+*/
+class Solution {
+    public ListNode deleteHead(ListNode head) {
+        // Your code goes here
+        ListNode current=head;
+        if(current.next==null){
+            return null;
+        }
+        else{
+        head=head.next;
+        head.prev=null;
+        }
+        return head;
+    }
+}

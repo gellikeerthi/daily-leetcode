@@ -1,4 +1,4 @@
-MEAN_MEDIAN_MODE CODE
+#MEAN_MEDIAN_MODE CODE
 import java.io.*;
 import java.util.*;
 

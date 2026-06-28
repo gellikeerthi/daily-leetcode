@@ -1,8 +1,8 @@
-# daily-leetcode 🚀
-My journey of solving one LeetCode problem every day.
+# daily-leetcode/Any coding platforms 🚀
+My journey of solving one problem every day.
 
 ## Goal 🎯 
-- Solve at least 1 LeetCode problem daily
+- Solve at least 1 problem daily
 - Improve Data Structures & Algorithms
 - Build consistency and problem-solving skills
   

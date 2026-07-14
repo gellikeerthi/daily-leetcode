@@ -12,23 +12,22 @@ public class Main {
         for(int i=0;i<m;i++){
             a[i]=sc.nextInt();
         }
-
-int count=0;
         for(int i=0;i<m;i++){
-            if(a[i]==0&&
-            (i==0||a[i-1]==0)
-            &&(i==m-1||a[i+1]==0)){
-               a[i]=1;
-               count++;
-               if(count==n){
-                break;
-               }
-            }
+            if(a[i]==0){
+        boolean left=(i==0)||(a[i-1]==0);
+        boolean right=(i==m-1)||(a[i+1]==0);
+        if(left&&right){
+           a[i]=1;
+            n--;
         }
-        if(count>=n){
+            }
+
+        }
+        if(n<=0){
             System.out.println("YES");
         }else{
             System.out.println("NO");
         }
+    
     }
 }

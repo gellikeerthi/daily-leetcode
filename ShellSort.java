@@ -1,3 +1,15 @@
+// Example
+// Input
+// 8
+// 4 3 12 1 13 9 5 6
+
+// Output
+// 4 3 5 1 13 9 12 6
+// 4 1 5 3 12 6 13 9
+// 1 3 4 5 6 9 12 13
+
+//for every gap we printed values not for every iteration
+
 import java.io.*;
 import java.util.*;
 

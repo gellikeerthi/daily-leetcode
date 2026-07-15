@@ -1,3 +1,11 @@
+
+// Example
+// Input
+// askhtwsflkqwertYuioPasdfghjklZxcvbnm
+
+// Output
+// Yes
+//     if all letters present in string yes else no
 import java.io.*;
 import java.util.*;
 

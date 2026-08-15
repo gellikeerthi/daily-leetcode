@@ -1,10 +1,10 @@
-ip:3 5
-1 4
-2 5
-6 4
-op:
-(1, 4)
-(6, 4)
+// ip:3 5
+// 1 4
+// 2 5
+// 6 4
+// op:
+// (1, 4)
+// (6, 4)
 import java.util.*;
 import java.lang.*;
 import java.io.*;

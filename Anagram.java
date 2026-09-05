@@ -1,3 +1,16 @@
+//USING BUILT IN FUNCTIONS
+public static boolean isAnagram(String s, String t) {
+    // write code here...
+char[] a=s.toCharArray();
+char[] b=t.toCharArray();
+Arrays.sort(a);
+Arrays.sort(b);
+if(Arrays.equals(a,b)){
+    return true;}
+    return false;  
+}
+
+--------------------------
 import java.io.*;
 import java.util.*;
 

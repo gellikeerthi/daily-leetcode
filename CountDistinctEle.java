@@ -17,7 +17,7 @@ class Solution {
     }
 }
 Optimal code
-  using hashmap will reduce the time complexity o(n*h)
+  using hashmap will reduce the time complexity o(n*k)
   instead of creating hashset every time we just move one step by incrementing i and j
   import java.io.*;
 import java.util.*;
